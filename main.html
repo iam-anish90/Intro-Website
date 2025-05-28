@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WELCOME TO MY WEBSITE</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .logo-container {
+    display: flex;
+    </style>
+</head>
+<body>
+<header>
+  <div class="logo-container" aria-label="anish production logo and text">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 0C5.372 0 .007 5.372.007 12S5.372 24 12 24s11.993-5.372 11.993-12S18.628 0 12 0zm7.846 17.234c-1.356-2.786-4.27-5.183-7.78-5.183-3.505 0-6.416 2.404-7.769 5.193-1.085-1.072-1.758-2.518-1.758-4.096 0-3.356 2.722-6.078 6.078-6.078a6.064 6.064 0 0 1 5.368 3.176 6.067 6.067 0 0 1 5.372-3.18c3.357 0 6.078 2.722 6.078 6.078 0 1.576-.666 3.019-1.748 4.093z"/>
+    </svg>
+    <span class="logo-text">anish production</span>
+  </div>
+  <h1>WELCOME TO MY WEBSITE</h1>
+</header>
+<main>
+  <form aria-label="Sign up form">
+    <h2>Create an Account</h2>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter password" required autocomplete="new-password" />
+    <input type="submit" value="Sign Up" />
+  </form>
+</main>
+</body>
+</html>
